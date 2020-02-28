@@ -31,6 +31,12 @@ p{
 
     
 }
+.dream-area{
+    background-image: url("image/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    
+}
 section{
     height: 800px;
     
@@ -43,9 +49,69 @@ section{
     color: white;
     font-weight: 700;
 }
-.dream-area{
-background-image: url("image/biography-bg.png");
-background-repeat: no-repeat;
-background-size: 1500px;
+#latest-work-area{
+    background-image: url("image/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#latest-work-area .container{
+    height: 500px;
+}
+#latest-work-area h2{
+    text-align: center;
+    padding-bottom: 50px;
+}
+#latest-work-area .single-work{
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+}
+#latest-work-area .single-work:last-child{
+    margin-right: 0;
+}
+#latest-work-area img{
+    width: 100%;
+    box-shadow: 4px 4px 15px gray;
+    border-radius: 5px;
 
 }
+#latest-work-area img:hover{
+    box-shadow: 10px 10px 30px rgb(48, 46, 46);
+    transition: .5s ease;
+}
+
+footer{
+    text-align: center;
+    color: #707070;
+}
+#testimonial-area{
+    background-image: url("image/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#testimonial-area .container{
+    text-align: center;
+    height: 600px;
+}
+#testimonial-area p{
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+#testimonial-area p small{
+    color: #707070;
+}
+#testimonial-area h4{
+    margin: 50px 0 0 0;
+}
+#testimonial-area a{
+    display: inline-block;
+    text-transform: none;
+    padding: 30px 100px ;
+    margin-top: 40px;
+}
+#testimonial-area a h3{
+    margin: 5px;
+}
+#testimonial-area a h5{
+    margin: 5px;
